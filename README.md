@@ -10,15 +10,14 @@ such as social media button generators, or applications like
 ShareThis, SMIB allows for complete control over hyperlinks, 
 icons, and styles.
 
-Utilizing the most readily-available official icons, SMIB 
-hopes to provide an easy to use and fairly efficient way to 
-load social media icons, while adhering to the many rules and 
-regulations for each social networking site's logo and branding.
+Utilizing the most readily-available official icons, while
+attempting to adhere to each and every branding guideline,
+SMIB hopes to provide an easy to use, and fairly efficient 
+method for loading social media icons. 
 
 If you've found one of these icons breaking some arbitrary
-rule and regulation for the social networking site it
-belongs to, let me know and I will either fix it or remove
-it.
+rule or regulation, let me know and I will either fix it or 
+remove it.
 
 ### Demonstration
 
