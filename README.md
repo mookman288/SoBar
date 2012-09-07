@@ -5,11 +5,15 @@
 ### Preface
 
 The *Social Media Icon Bar* was designed to provide a simple
-CSS sprite social media icon experience. Utilizing the most 
-readily-available official icons, SMIB hopes to provide an
-easy to use and fairly efficient way to load social media
-icons, while adhering to the many rules and regulations for
-each social networking site's logo and branding.
+CSS sprite social media icon experience. Unlike alternatives,
+such as social media button generators, or applications like
+ShareThis, SMIB allows for complete control over hyperlinks, 
+icons, and styles.
+
+Utilizing the most readily-available official icons, SMIB 
+hopes to provide an easy to use and fairly efficient way to 
+load social media icons, while adhering to the many rules and 
+regulations for each social networking site's logo and branding.
 
 If you've found one of these icons breaking some arbitrary
 rule and regulation for the social networking site it
