@@ -21,7 +21,7 @@ The focus of this project is to provide a clean framework
 in which any developer may expand, modify, or manipulate 
 the output for their own purposes. As such, customization 
 of this project is expected. Knowledge of graphic design, 
-CSS and HTML is required.
+CSS, and HTML is required.
 
 ### Demonstration
 
@@ -47,9 +47,10 @@ within the following browsers:
 
 Included in this repository is a demo image which you may use 
 as a guideline in implementing a similar version of this code. 
-With any implementation of this software, it is your responsibility, 
-and yours alone, to adhere to the guidelines and policies of 
-the social media organizations you wish to include.
+With any implementation of this software, it is your 
+responsibility, and yours alone, to adhere to the guidelines 
+and policies of the social media organizations you wish to 
+include.
 
 All logos and trademarks included within this application are 
 the property of their respective owners, and use of these logos 
