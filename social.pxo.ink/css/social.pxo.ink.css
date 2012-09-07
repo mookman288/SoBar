@@ -1,0 +1,67 @@
+/* Cascading Style Sheet Created By: PxO Ink (http://www.pxoink.net/) */
+/* Cascading Style Sheet Copyright 2012 © PxO Ink. Most rights reserved. */
+
+.social-icon {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	width: 24px;
+	height: 24px;
+	background: transparent;
+	background-image: url('../images/social.png');
+	background-repeat: no-repeat;
+	text-indent: -655359px;
+	}
+	
+.social-facebook {
+	background-position: 0px 0px;
+	}
+	
+.social-twitter {
+	background-position: -24px 0px;
+	}
+	
+.social-youtube {
+	background-position: -48px 0px;
+	}
+	
+.social-myspace {
+	background-position: -72px 0px;
+	}
+	
+.social-soundcloud {
+	background-position: -96px 0px;
+	}
+	
+.social-itunes {
+	width: 48px;
+	background-position: -120px 0px;
+	}
+	
+.social-beatport {
+	background-position: -168px 0px;
+	}
+	
+.social-amazon {
+	background-position: -192px 0px;
+	}
+	
+.social-pintrest {
+	background-position: -216px 0px;
+	}
+	
+.social-reddit {
+	background-position: -240px 0px;
+	}
+	
+.social-tumblr {
+	background-position: -264px 0px;
+	}
+	
+.social-instagram {
+	background-position: -288px 0px;
+	}
+	
+.social-rss {
+	background-position: -312px 0px;
+	}
