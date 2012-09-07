@@ -11,7 +11,10 @@ easy to use and fairly efficient way to load social media
 icons, while adhering to the many rules and regulations for
 each social networking site's logo and branding.
 
-If you've found one of these icons breaking the 
+If you've found one of these icons breaking some arbitrary
+rule and regulation for the social networking site it
+belongs to, let me know and I will either fix it or remove
+it.
 
 ### Demonstration
 
