@@ -4,7 +4,7 @@
 
 ### Preface
 
-The *Social Media Icon Bar* was designed to provide a simple
+The *Social Media Icon Bar* is designed to provide a simple
 CSS sprite social media icon experience. Unlike alternatives,
 such as social media button generators, or applications like
 ShareThis, SMIB allows for complete control over hyperlinks, 
