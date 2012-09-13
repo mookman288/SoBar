@@ -30,7 +30,7 @@ your own creative implementations. An index.html file, a
 modified CSS framework, and a CSS sprite is included for 
 your convenience and demonstration only.
 
-A demonstration of the efficiency of minifying a CSS file is  
+A demonstration of the efficiency of minifying a CSS file is 
 also included for your convenience.
 
 ### Compatibility
