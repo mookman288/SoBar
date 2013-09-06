@@ -1,5 +1,5 @@
 /* Cascading Style Sheet Created By: PxO Ink (http://www.pxoink.net/) */
-/* Cascading Style Sheet Copyright 2012 © PxO Ink. Most rights reserved. */
+/* Cascading Style Sheet Copyright 2013 © PxO Ink. Most rights reserved. */
 
 .social-icon {
 	display: inline-block;
@@ -14,63 +14,67 @@
 	text-indent: -655359px;
 	}
 	
-.social-icon-0 {
+.social-icon.facebook {
 	background-position: 0px 0px;
 	}
 	
-.social-icon-1 {
+.social-icon.twitter {
 	background-position: -24px 0px;
 	}
 	
-.social-icon-2 {
+.social-icon.youtube {
 	background-position: -48px 0px;
 	}
 	
-.social-icon-3 {
+.social-icon.myspace {
 	background-position: -72px 0px;
 	}
 	
-.social-icon-4 {
+.social-icon.soundcloud {
 	background-position: -96px 0px;
 	}
 	
-.social-icon-5 {
+.social-icon.itunes {
 	width: 48px;
 	background-position: -120px 0px;
 	}
 	
-.social-icon-6 {
+.social-icon.beatport {
 	background-position: -168px 0px;
 	}
 	
-.social-icon-7 {
+.social-icon.amazon {
 	background-position: -192px 0px;
 	}
 	
-.social-icon-8 {
+.social-icon.pinterest {
 	background-position: -216px 0px;
 	}
 	
-.social-icon-9 {
+.social-icon.reddit {
 	background-position: -240px 0px;
 	}
 	
-.social-icon-10 {
+.social-icon.tumblr {
 	background-position: -264px 0px;
 	}
 	
-.social-icon-11 {
+.social-icon.instagram {
 	background-position: -288px 0px;
 	}
 	
-.social-icon-12 {
+.social-icon.rss {
 	background-position: -312px 0px;
 	}
 	
-.social-icon-13 {
+.social-icon.email {
 	background-position: -336px 0px;
 	}
 	
-.social-icon-14 {
+.social-icon.google {
 	background-position: -360px 0px;
+	}
+	
+.social-icon.github {
+	background-position: -384px 0px;
 	}
