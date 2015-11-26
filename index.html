@@ -1,44 +1,147 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Social Media Icon Bar Demo</title>
+		<title>SoBar Demo</title>
 		<meta charset="utf-8" />
 		<meta name="author" content="PxO Ink" />
 		<meta name="robots" content="none" />
-		<link rel="stylesheet" type="text/css" href="./social.pxo.ink/css/social.pxo.ink.css" />
+		<style type="text/css">
+			body {
+				padding: 2.50rem;
+				font-family: sans-serif, serif;
+			}
+			img {
+				width: auto;
+				height: 4.00rem;
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" href="./css/sobar.min.css" />
 	</head>
-	<body style="padding: 5.00%;">
-		<a class="social-icon facebook" href="http://www.facebook.com" title="Follow me on Facebook" target="_blank">Follow me on Facebook</a>
-		<span>&nbsp;</span>
-		<a class="social-icon twitter" href="http://www.twitter.com" title="Follow me on Twitter" target="_blank">Follow me on Twitter</a>
-		<span>&nbsp;</span>
-		<a class="social-icon youtube" href="http://www.youtube.com" title="Watch me on YouTube" target="_blank">Watch me on YouTube</a>
-		<span>&nbsp;</span>
-		<a class="social-icon myspace" href="http://www.myspace.com" title="Share on MySpace" target="_blank">Share on MySpace</a>
-		<span>&nbsp;</span>
-		<a class="social-icon soundcloud" href="http://www.soundcloud.com" title="I'm on SoundCloud" target="_blank">I'm on SoundCloud</a>
-		<span>&nbsp;</span>
-		<a class="social-icon itunes" href="http://www.itunes.com" title="Order on iTunes" target="_blank">Order on iTunes</a>
-		<span>&nbsp;</span>
-		<a class="social-icon beatport" href="http://www.beatport.com" title="Visit me on Beatport" target="_blank">Visit me on Beatport</a>
-		<span>&nbsp;</span>
-		<a class="social-icon amazon" href="http://www.amazon.com" title="Order on Amazon" target="_blank">Order on Amazon</a>
-		<span>&nbsp;</span>
-		<a class="social-icon pintrest" href="http://www.pintrest.com" title="Follow me on Pintrest" target="_blank">Follow me on Pintrest</a>
-		<span>&nbsp;</span>
-		<a class="social-icon reddit" href="http://www.reddit.com/submit?url=https://github.com/mookman288/Social_Media_Icon_Bar" title="reddit this!" target="_blank">reddit this!</a>
-		<span>&nbsp;</span>
-		<a class="social-icon tumblr" href="http://www.tumblr.com" title="Follow me on tumblr." target="_blank">Follow me on tumblr.</a>
-		<span>&nbsp;</span>
-		<a class="social-icon instagram" href="http://www.instagram.com" title="This [application/website] uses the Instagram&trade; API and is not endorsed or certified by Instagram or Instagram, Inc. All Instagram&trade; logos and trademarks displayed on this [application/website] are property of Instagram, Inc." target="_blank">This [application/website] uses the Instagram&trade; API and is not endorsed or certified by Instagram or Instagram, Inc. All Instagram&trade; logos and trademarks displayed on this [application/website] are property of Instagram, Inc.</a>
-		<span>&nbsp;</span>
-		<a class="social-icon rss" href="#" title="Download RSS feed" target="_blank">Download RSS feed</a>
-		<span>&nbsp;</span>
-		<a class="social-icon email" href="http://pxoink.net/contact" title="Contact Us" target="_blank">Contact Us</a>
-		<span>&nbsp;</span>
-		<a class="social-icon google" href="http://plus.google.com" title="I'm on Google+" target="_blank">I'm on Google+</a>
-		<span>&nbsp;</span>
-		<a class="social-icon github" href="http://github.com/" title="Check out my work on GitHub" target="_blank">Check out my work on GitHub</a>
-		<span>&nbsp;</span>
+	<body>
+		<h1>SoBar</h1>
+		<h2>The Social Media Icon Bar</h2>
+		<h3>Developed by <a href="http://pxo.ink/" target="_blank">PxO Ink</a></h3>
+		<h4>Preface</h4>
+		<p>
+			SoBar is designed to provide svg-based social media icon 
+			experience. SoBar can be used in a standalone manner by 
+			setting a width or height on an image element using an svg 
+			as a source. Alternatively, this repository comes packaged 
+			with CSS designed to provide a slightly more modular icon 
+			system. 
+		</p>
+		<p>
+			Unlike its predecessor, SMIB, SoBar has no limiting factor 
+			of attractivity. Any size can be used, with any styles, 
+			which allows for complete customization within the 
+			confines of the branding guidelines for each icon:
+		</p>
+		<ul>
+			<li><a href="https://github.com/logos" target="_blank">Github</a></li>
+			<li><a href="https://www.facebookbrand.com/" target="_blank">Facebook</a></li>
+			<li><a href="https://about.twitter.com/company/brand" target="_blank">Twitter</a></li>
+			<li><a href="https://brand.linkedin.com/" target="_blank">LinkedIn</a></li>
+			<li><a href="https://www.tumblr.com/logo" target="_blank">Tumblr</a></li>
+			<li><a href="https://business.pinterest.com/en/brand-guidelines" target="_blank">Pinterest</a></li>
+			<li><a href="https://soundcloud.com/press" target="_blank">Soundcloud</a></li>
+			<li><a href="https://support.beatport.com/hc/en-us/articles/200353255-Beatport-Logos-and-Images" target="_blank">
+				Beatport
+			</a></li>
+			<li><a href="https://www.apple.com/itunes/marketing-on-itunes/identity-guidelines.html" target="_blank">
+				iTunes
+			</a></li>
+		</ul>
+		<h4>Compatibility</h4>
+		<p>
+			SoBar relies on svg and inline-block support. SoBar was tested 
+			on the following platforms: 
+		</p>
+		<ul>
+			<li>Internet Explorer 9+</li>
+			<li>Chrome 43+</li>
+			<li>Opera 32+</li>
+			<li>FireFox 40+</li>
+		</ul>
+		<h4>License</h4>
+		<p>
+			It is your responsibility, and your responsibility alone to 
+			adhere to the branding guidelines above. 
+		</p>
+		<p>
+			All logos and trademarks included within this application are 
+			the property of their respective owners, and use of these 
+			logos and trademarks are subject to the policies of those 
+			individual organizations. Any and all logos, trademarks, or 
+			code not acquired through a third party, shall have the 
+			following license: 
+		</p>
+		<p><strong>The MIT License (MIT)</strong></p>
+		<p>Software Copyright &copy; 2015 PxO Ink. Most Rights Reserved.</p>
+		<p>
+			Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+			documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+			the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+			to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+		</p>
+		<p>
+			The above copyright notice and this permission notice shall be included in all copies or substantial portions of 
+			the Software.
+		</p>
+		<p>
+			THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO 
+			THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+			AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+			CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS 
+			IN THE SOFTWARE.
+		</p>
+		<h3>Plain SVG Images</h3>
+		<img src="./images/share.svg" alt="Share" />
+		<img src="./images/email.svg" alt="Email" />
+		<img src="./images/github.svg" alt="Github" />
+		<img src="./images/facebook.svg" alt="Facebook" />
+		<img src="./images/twitter.svg" alt="Twitter" />
+		<img src="./images/linkedin.svg" alt="LinkedIn" />
+		<img src="./images/tumblr.svg" alt="Tumblr" />
+		<img src="./images/pinterest.svg" alt="Pinterest" />
+		<img src="./images/soundcloud.svg" alt="Soundcloud" />
+		<img src="./images/beatport.svg" alt="Beatport" />
+		<img src="./images/itunes.svg" alt="iTunes" />
+		<h3>CSS</h3>
+		<h4>Micro</h4>
+		<i class="social micro share">Share</i>
+		<i class="social micro email">Email</i>
+		<i class="social micro github">Github</i>
+		<i class="social micro facebook">Facebook</i>
+		<i class="social micro twitter">Twitter</i>
+		<i class="social micro linkedin">LinkedIn</i>
+		<i class="social micro tumblr">Tumblr</i>
+		<i class="social micro pinterest">Pinterest</i>
+		<i class="social micro soundcloud">Soundcloud</i>
+		<i class="social micro beatport">Beatport</i>
+		<i class="social micro itunes">iTunes</i>
+		<h4>Default</h4>
+		<i class="social share">Share</i>
+		<i class="social email">Email</i>
+		<i class="social github">Github</i>
+		<i class="social facebook">Facebook</i>
+		<i class="social twitter">Twitter</i>
+		<i class="social linkedin">LinkedIn</i>
+		<i class="social tumblr">Tumblr</i>
+		<i class="social pinterest">Pinterest</i>
+		<i class="social soundcloud">Soundcloud</i>
+		<i class="social beatport">Beatport</i>
+		<i class="social itunes">iTunes</i>
+		<h4>Mega</h4>
+		<i class="social mega share">Share</i>
+		<i class="social mega email">Email</i>
+		<i class="social mega github">Github</i>
+		<i class="social mega facebook">Facebook</i>
+		<i class="social mega twitter">Twitter</i>
+		<i class="social mega linkedin">LinkedIn</i>
+		<i class="social mega tumblr">Tumblr</i>
+		<i class="social mega pinterest">Pinterest</i>
+		<i class="social mega soundcloud">Soundcloud</i>
+		<i class="social mega beatport">Beatport</i>
+		<i class="social mega itunes">iTunes</i>
 	</body>
 </html>
