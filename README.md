@@ -28,6 +28,39 @@ confines of the branding guidelines for each icon:
 * [Beatport](https://support.beatport.com/hc/en-us/articles/200353255-Beatport-Logos-and-Images)
 * [iTunes](https://www.apple.com/itunes/marketing-on-itunes/identity-guidelines.html)
 
+####Source and Special Mention
+
+The share icon used in this repository is based on 
+Min Ming Lo's article, entitled 
+[Share: The Icon No One Agrees On](https://bold.pixelapse.com/minming/share-the-icon-no-one-agrees-on). 
+It is clear that the milkshake icon is far greater than anything else, and should be adopted as a 
+standard sharing icon. If you disagree with this notion, feel free to fork and add your own icon. 
+
+####Syntax
+
+`<i class="social share">Share</i>`
+
+`<a href="./mailto.php"><i class="social email"></i></a>`
+
+#####List of sizes:
+
+* .mega
+* .micro
+
+#####List of icons:
+
+* .share
+* .email
+* .facebook
+* .twitter
+* .github
+* .tumblr
+* .pinterest
+* .soundcloud
+* .beatport
+* .itunes
+* .linkedin
+
 ####Compatibility
 
 SoBar relies on svg and inline-block support. SoBar was tested 
