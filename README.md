@@ -40,7 +40,7 @@ standard sharing icon. If you disagree with this notion, feel free to fork and a
 
 `<i class="social share">Share</i>`
 
-`<a href="./mailto.php"><i class="social email"></i></a>`
+`<a href="./mailto.php"><i class="social email">Email</i></a>`
 
 #####List of sizes:
 
