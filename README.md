@@ -1,10 +1,10 @@
-#SoBar
+# SoBar
 
-##The Social Media Icon Bar
+## The Social Media Icon Bar
 
-###Developed by [PxO Ink](http://pxo.ink/)
+### Developed by [PxO Ink](http://pxo.ink/)
 
-####Preface
+#### Preface
 
 SoBar is designed to provide svg-based social media icon 
 experience. SoBar can be used in a standalone manner by 
@@ -28,7 +28,7 @@ confines of the branding guidelines for each icon:
 * [Beatport](https://support.beatport.com/hc/en-us/articles/200353255-Beatport-Logos-and-Images)
 * [iTunes](https://www.apple.com/itunes/marketing-on-itunes/identity-guidelines.html)
 
-####Source and Special Mention
+#### Source and Special Mention
 
 The share icon used in this repository is based on 
 Min Ming Lo's article, entitled 
@@ -36,18 +36,18 @@ Min Ming Lo's article, entitled
 It is clear that the milkshake icon is far greater than anything else, and should be adopted as a 
 standard sharing icon. If you disagree with this notion, feel free to fork and add your own icon. 
 
-####Syntax
+#### Syntax
 
-`<i class="social share">Share</i>`
+`<span class="social share" title="Share">Share</span>`
 
-`<a href="./mailto.php"><i class="social email">Email</i></a>`
+`<a href="./mailto.php" title="Email Me"><span class="social email">Email Me</span></a>`
 
-#####List of sizes:
+##### List of sizes:
 
 * .mega
 * .micro
 
-#####List of icons:
+##### List of icons:
 
 * .share
 * .email
@@ -61,7 +61,7 @@ standard sharing icon. If you disagree with this notion, feel free to fork and a
 * .itunes
 * .linkedin
 
-####Compatibility
+#### Compatibility
 
 SoBar relies on svg and inline-block support. SoBar was tested 
 on the following platforms: 
@@ -71,7 +71,7 @@ on the following platforms:
 * Opera 32+
 * FireFox 40+
 
-####License
+#### License
 
 It is your responsibility, and your responsibility alone to 
 adhere to the branding guidelines above. 
@@ -85,7 +85,7 @@ following license:
 
 *The MIT License (MIT)*
 
-Software Copyright &copy; 2015 PxO Ink. Most Rights Reserved.
+Software Copyright &copy; 2015 PxO Ink LLC. Most Rights Reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
