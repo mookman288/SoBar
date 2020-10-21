@@ -35,6 +35,7 @@ EDIT: It's five years later, and I don't think this has caught on, yet.
 ### List of sizes:
 
 Default pixel size: 16px
+
 Default size: 2.50rem | 40px
 
 * .micro - 1.00rem | 16px
