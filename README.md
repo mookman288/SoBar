@@ -4,19 +4,11 @@
 
 ### Developed by [PxO Ink](http://pxo.ink/)
 
-#### Preface
+## Preface
 
-SoBar is designed to provide svg-based social media icon 
-experience. SoBar can be used in a standalone manner by 
-setting a width or height on an image element using an svg 
-as a source. Alternatively, this repository comes packaged 
-with CSS designed to provide a slightly more modular icon 
-system. 
+SoBar is designed to provide svg-based social media icon experience. SoBar can be used in a standalone manner by setting a width or height on an image element using an svg as a source. Alternatively, this repository comes packaged with CSS designed to provide a slightly more modular icon system.
 
-Unlike its predecessor, SMIB, SoBar has no limiting factor 
-of attractivity. Any size can be used, with any styles, 
-which allows for complete customization within the 
-confines of the branding guidelines for each icon:
+Unlike its predecessor, SMIB, SoBar has no limiting factor of attractivity. Any size can be used, with any styles, which allows for complete customization within the confines of the branding guidelines for each icon:
 
 * [Github](https://github.com/logos)
 * [Facebook](https://www.facebookbrand.com/)
@@ -28,26 +20,30 @@ confines of the branding guidelines for each icon:
 * [Beatport](https://support.beatport.com/hc/en-us/articles/200353255-Beatport-Logos-and-Images)
 * [iTunes](https://www.apple.com/itunes/marketing-on-itunes/identity-guidelines.html)
 
-#### Source and Special Mention
+## Source and Special Mention
 
-The share icon used in this repository is based on 
-Min Ming Lo's article, entitled 
-[Share: The Icon No One Agrees On](https://bold.pixelapse.com/minming/share-the-icon-no-one-agrees-on). 
-It is clear that the milkshake icon is far greater than anything else, and should be adopted as a 
-standard sharing icon. If you disagree with this notion, feel free to fork and add your own icon. 
+The share icon used in this repository is based on Min Ming Lo's article, entitled [Share: The Icon No One Agrees On](https://bold.pixelapse.com/minming/share-the-icon-no-one-agrees-on). It is clear that the milkshake icon is far greater than anything else, and should be adopted as a standard sharing icon. If you disagree with this notion, feel free to fork and add your own icon.
 
-#### Syntax
+EDIT: It's five years later, and I don't think this has caught on, yet.
 
-`<span class="social share" title="Share">Share</span>`
+## Syntax
 
-`<a href="./mailto.php" title="Email Me"><span class="social email">Email Me</span></a>`
+    <span class="social share" title="Share">Share</span>
 
-##### List of sizes:
+    <a href="./mailto.php" title="Email Me"><span class="social email">Email Me</span></a>
 
-* .mega
-* .micro
+### List of sizes:
 
-##### List of icons:
+Default pixel size: 16px
+Default size: 2.50rem | 40px
+
+* .micro - 1.00rem | 16px
+* .small - 2.00rem | 32px
+* .medium - 3.00rem | 48px
+* .large - 4.00rem | 64px
+* .mega - 5.00rem | 80px
+
+### List of icons:
 
 * .share
 * .email
@@ -61,10 +57,9 @@ standard sharing icon. If you disagree with this notion, feel free to fork and a
 * .itunes
 * .linkedin
 
-#### Compatibility
+### Compatibility
 
-SoBar relies on svg and inline-block support. SoBar was tested 
-on the following platforms: 
+SoBar relies on svg and inline-block support. SoBar was tested on the following platforms:
 
 * Internet Explorer 9+
 * Chrome 43+
@@ -73,15 +68,9 @@ on the following platforms:
 
 #### License
 
-It is your responsibility, and your responsibility alone to 
-adhere to the branding guidelines above. 
+It is your responsibility, and your responsibility alone to adhere to the branding guidelines above.
 
-All logos and trademarks included within this application are 
-the property of their respective owners, and use of these 
-logos and trademarks are subject to the policies of those 
-individual organizations. Any and all logos, trademarks, or 
-code not acquired through a third party, shall have the 
-following license: 
+All logos and trademarks included within this application are the property of their respective owners, and use of these logos and trademarks are subject to the policies of those individual organizations. Any and all logos, trademarks, or code not acquired through a third party, shall have the following license:
 
 *The MIT License (MIT)*
 

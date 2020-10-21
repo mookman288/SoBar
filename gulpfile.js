@@ -1,55 +1,33 @@
-//Declare variables.
-var	gulp		=	require('gulp');
-var imagemin    =   require('gulp-imagemin');
-var	minifyCSS	=	require('gulp-minify-css');
-var	rename		=	require('gulp-rename');
-var	svgsprite	=	require('gulp-svg-sprite');
-
-//Declare settings.
-var	settings	=	{
-		'imagemin': {
-			interlaced: true, 
-			multipass: true, 
-			optimizationLevel: 5, 
-			progressive: true, 
-			svgoPlugins: [{removeViewBox: false}]
-		}, 
-		'svgsprite': {
-			dest: '.', 
-			log: null, 
-			mode: {
-				view: true
-			}, 
-			svg: {
-				xmlDeclaration: true, 
-				doctypeDeclaration: true, 
-				namespaceIDs: true, 
-				dimensionAttributes: true
-			}
-		}
-};
+//Declare constiables.
+const gulp		=	require('gulp');
+const imagemin	=   require('gulp-imagemin');
+const minifyCSS	=	require('gulp-clean-css');
+const rename	=	require('gulp-rename');
+const sass		=	require('gulp-sass');
 
 //Minify CSS.
-gulp.task('css', function() {
-	return gulp.src('./css/sobar.css')
+const css = () => {
+	return gulp.src('./src/css/sobar.scss')
+		.pipe(sass())
+		.on('error', function(error) {
+			//Log to the console.
+			console.error(error);
+
+			//Return the error.
+			return error;
+		})
 		.pipe(rename('./sobar.min.css'))
 		.pipe(minifyCSS({compatibility: 'ie9'}))
-		.pipe(gulp.dest('./css'));
-});
+		.pipe(gulp.dest('./dist/css'));
+};
 
 //Minify images.
-gulp.task('minify', function() {
-	return gulp.src('./images/src/*.svg')
-		.pipe(imagemin(settings.imagemin))
-		.pipe(gulp.dest('./images'));
-});
+const images = () => {
+	return gulp.src('./src/images/*.svg')
+		.pipe(imagemin())
+		.pipe(gulp.dest('./dist/images'));
+};
 
-//Handle images.
-gulp.task('sprite', function() {
-	return gulp.src('./images/*.svg')
-		.pipe(svgsprite(settings.svgsprite))
-		.pipe(gulp.dest('.'));
-});
+const tasks = gulp.parallel(css, images);
 
-//Task runner. 
-gulp.task('default', ['css', 'minify']);
+exports.default = tasks;

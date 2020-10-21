@@ -1,6 +1,6 @@
 {
 	"name": "sobar",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "SVG based SoBar.",
 	"main": "index.js",
 	"scripts": {},
@@ -11,10 +11,11 @@
 	"author": "PxO Ink LLC",
 	"license": "MIT",
 	"dependencies": {
-		"gulp": "^3.9.0",
-		"gulp-imagemin": "^2.3.0",
-		"gulp-minify-css": "^1.2.0",
-		"gulp-rename": "^1.2.2", 
-		"gulp-svg-sprite": "^1.2.15"
+		"gulp": "^4.0.2",
+		"gulp-clean-css": "^4.2.0",
+		"gulp-imagemin": "^6.2.0",
+		"gulp-rename": "^1.4.0",
+		"gulp-sass": "^4.0.2",
+		"node-sass": "^4.14.1"
 	}
 }

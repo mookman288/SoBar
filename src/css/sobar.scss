@@ -1,0 +1,91 @@
+/**
+ * Name: SoBar
+ * Author: PxO Ink
+ * License: The MIT License (MIT)
+ * Copyright: 2015 PxO Ink. Most Rights Reserved.
+ **/
+
+$sobar-path: '../images' !default;
+
+.social {
+	display: inline-block;
+	width: 2.50rem;
+	height: 2.50rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100.00%;
+	text-indent: 100.00%;
+	overflow: hidden;
+	white-space: nowrap;
+
+	&.micro {
+		width: 1.00rem;
+		height: 1.00rem;
+	}
+
+	&.small {
+		width: 2.00rem;
+		height: 2.00rem;
+	}
+
+	&.medium {
+		width: 3.00rem;
+		height: 3.00rem;
+	}
+
+	&.large {
+		width: 4.00rem;
+		height: 4.00rem;
+	}
+
+	&.mega {
+		width: 5.00rem;
+		height: 5.00rem;
+	}
+
+	&.share {
+		background-image: url($sobar-path + '/share.svg');
+		background-size: 44.00%;
+	}
+
+	&.email {
+		background-image: url($sobar-path + '/email.svg');
+	}
+
+	&.facebook {
+		background-image: url($sobar-path + '/facebook.svg');
+	}
+
+	&.twitter {
+		background-image: url($sobar-path + '/twitter.svg');
+	}
+
+	&.github {
+		background-image: url($sobar-path + '/github.svg');
+	}
+
+	&.tumblr {
+		background-image: url($sobar-path + '/tumblr.svg');
+		background-size: 44.00%;
+	}
+
+	&.pinterest {
+		background-image: url($sobar-path + '/pinterest.svg');
+	}
+
+	&.soundcloud {
+		background-image: url($sobar-path + '/soundcloud.svg');
+	}
+
+	&.beatport {
+		background-image: url($sobar-path + '/beatport.svg');
+	}
+
+	&.itunes {
+		background-image: url($sobar-path + '/itunes.svg');
+	}
+
+	&.linkedin {
+		background-image: url($sobar-path + '/linkedin.svg');
+	}
+}
