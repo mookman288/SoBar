@@ -18,29 +18,69 @@ $sobar-path: '../images' !default;
 	overflow: hidden;
 	white-space: nowrap;
 
+	&.beatport, &.itunes {
+		width: 6.00rem;
+	}
+
+	&.baseline {
+		vertical-align: baseline;
+	}
+
+	&.bottom {
+		vertical-align: bottom;
+	}
+
+	&.middle {
+		vertical-align: middle;
+	}
+
+	&.top {
+		vertical-align: top;
+	}
+
 	&.micro {
 		width: 1.00rem;
 		height: 1.00rem;
+
+		&.beatport, &.itunes {
+			width: 3.00rem;
+		}
 	}
 
 	&.small {
 		width: 2.00rem;
 		height: 2.00rem;
+
+		&.beatport, &.itunes {
+			width: 5.00rem;
+		}
 	}
 
 	&.medium {
 		width: 3.00rem;
 		height: 3.00rem;
+
+		&.beatport, &.itunes {
+			width: 7.00rem;
+		}
 	}
 
 	&.large {
 		width: 4.00rem;
 		height: 4.00rem;
+
+		&.beatport, &.itunes {
+			width: 9.00rem;
+		}
 	}
 
 	&.mega {
 		width: 5.00rem;
 		height: 5.00rem;
+
+		&.beatport, &.itunes {
+			width: 11.00rem;
+		}
 	}
 
 	&.share {
@@ -83,9 +123,17 @@ $sobar-path: '../images' !default;
 
 	&.itunes {
 		background-image: url($sobar-path + '/itunes.svg');
+		min-width: 83px;
+		min-height: 30px;
 	}
 
 	&.linkedin {
 		background-image: url($sobar-path + '/linkedin.svg');
+	}
+
+	&.instagram {
+		background-image: url($sobar-path + '/instagram.svg');
+		min-width: 29px;
+		min-height: 29px;
 	}
 }

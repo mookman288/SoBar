@@ -19,6 +19,7 @@ Unlike its predecessor, SMIB, SoBar has no limiting factor of attractivity. Any 
 * [SoundCloud](https://soundcloud.com/press)
 * [Beatport](https://support.beatport.com/hc/en-us/articles/200353255-Beatport-Logos-and-Images)
 * [iTunes](https://www.apple.com/itunes/marketing-on-itunes/identity-guidelines.html)
+* [Instagram](https://en.facebookbrand.com/instagram/)
 
 ## Source and Special Mention
 
@@ -44,19 +45,27 @@ Default size: 2.50rem | 40px
 * .large - 4.00rem | 64px
 * .mega - 5.00rem | 80px
 
+### List of modifications:
+
+* .baseline - `vertical-align: baseline;`
+* .bottom - `vertical-align: bottom;`
+* .middle - `vertical-align: middle;`
+* .top - `vertical-align: top;`
+
 ### List of icons:
 
 * .share
 * .email
+* .github
 * .facebook
 * .twitter
-* .github
+* .linkedin
 * .tumblr
 * .pinterest
 * .soundcloud
 * .beatport
 * .itunes
-* .linkedin
+* .instagram
 
 ### Compatibility
 
@@ -67,7 +76,11 @@ SoBar relies on svg and inline-block support. SoBar was tested on the following 
 * Opera 32+
 * FireFox 40+
 
-#### License
+## Example
+
+A working example is available here: https://mookman288.github.io/SoBar/
+
+## License
 
 It is your responsibility, and your responsibility alone to adhere to the branding guidelines above.
 
